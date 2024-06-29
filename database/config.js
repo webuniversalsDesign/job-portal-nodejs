@@ -5,10 +5,10 @@ dotenv.config();
 
 const connection = mysql.createPool({
   connectionLimit: 10,
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
+  host: "192.185.74.209",
+  user: "yourchoi_job_portal_db_user",
+  password: "M!P--c(s={DY",
+  database: "yourchoi_job_portal_db",
 });
 
 module.exports = connection;
