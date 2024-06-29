@@ -24,3 +24,5 @@ app.use("/api/user", contactRoutes);
 app.listen(PORT, () => {
   console.log(`Server is running in PORT ${PORT}`);
 });
+
+module.exports = app;
